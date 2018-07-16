@@ -1,3 +1,47 @@
 h1 {
-font-family:monospace;
+    font-family: monospace;
+    size: 5vw;
+}
+
+p {
+    align-content: center;
+    font-family: monospace;
+}
+
+
+/* - - - - - - - - - - - - - - Place all class-based stuff after this line (. stuff) - - - - - - - - - - - - - - */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    widows: 100%;
+}
+
+
+/* - - - - - - - - - - - - - - Place all id-based stuff after this line (#s) - - - - - - - - - - - - - - */
+
+
+/* - - - - Dividers - - - - */
+
+#MainScreenDiv {
+    vertical-align: middle;
+    width: 30vw;
+}
+
+#MainCenterDiv {
+    background: lightblue;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+/* - - - - Text-Based Elements - - - - */
+
+#MainHeader1 {
+    align-content: center;
+    text-align: center;
 }
